@@ -9,6 +9,7 @@ def turn_count(board)
 end
 
 def current_player(board)
+  turns = turn_count(board)
   if turn_count % 2 == 0
     character = "X"
   elsif turn_count % 2 ==1
